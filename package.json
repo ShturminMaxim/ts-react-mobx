@@ -2,7 +2,6 @@
   "name": "ts-react-mobx",
   "version": "0.1.0",
   "description": "ts react mobx webpack setup",
-  "main": "index.js",
   "scripts": {
     "dev": "npm install && cross-env NODE_ENV=development webpack-dev-server",
     "build": "npm install && cross-env NODE_ENV=production webpack --optimize-minimize"
@@ -12,7 +11,10 @@
     "url": "git+https://github.com/podgorniy/webpack-start.git"
   },
   "keywords": [
-    "webpack"
+    "webpack",
+    "typescript",
+    "react",
+    "mobx"
   ],
   "author": "Dmitry Podgorniy",
   "license": "MIT",
